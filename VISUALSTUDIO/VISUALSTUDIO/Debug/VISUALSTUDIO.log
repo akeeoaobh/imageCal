@@ -1,0 +1,6 @@
+﻿  calculate.cpp
+e:\school\git\imagecal\visualstudio\visualstudio\calculate.cpp(11): warning C4305: '正在初始化': 從 'int' 轉換為 'char'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+e:\school\git\imagecal\visualstudio\visualstudio\calculate.cpp(11): warning C4309: '正在初始化': 轉換導致常數值遭截斷; 可能需要使用較大的類型
+e:\school\git\imagecal\visualstudio\visualstudio\calculate.cpp(167): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+e:\school\git\imagecal\visualstudio\visualstudio\calculate.cpp(200): warning C4715: 'cal': 不是所有控制路徑都傳回值
+  VISUALSTUDIO.vcxproj -> E:\School\GIT\imageCal\VISUALSTUDIO\Debug\VISUALSTUDIO.exe
