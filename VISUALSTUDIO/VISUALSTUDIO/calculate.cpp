@@ -42,9 +42,9 @@ void calculate() {
 		 //2.運算子數量位置
 		x++;
 		if (parenthesesCorrect(func, x) /*&& opCorrect(func, x)*/)//沒錯運算輸出
-			cout << comput(func, x);
+			cout << comput(func, x)<<endl;
 		else
-			cout << "erro";
+			cout << "erro" << endl;
 
 		num--;
 
@@ -142,7 +142,7 @@ void inToPostfix(node* infix, node* postfix) {
 		}
 		else if(infix[i].type==1){
 			postfix[j++] = infix[i];
-			cout <<" "<< infix[i].number;
+			//cout <<" "<< infix[i].number;
 		}
 
 	}
@@ -167,13 +167,13 @@ double eval(node* infix) {
 	memset(stack, 0.0, sizeof(double)*MAXfuncLen);//初始化0.0
 
 	inToPostfix(infix, postfix);
-	for (int j = 0; postfix[j].type != 0; j++) {
-		if (postfix[j].type == 1)
-			cout << postfix[j].number<<"("<<j << ")";
-		else if (postfix[j].type == 2)
-			cout << postfix[j].op << "(" << j << ")";
-	//輸出debug碼
-	}
+	//for (int j = 0; postfix[j].type != 0; j++) {
+	//	if (postfix[j].type == 1)
+	//		cout << postfix[j].number<<"("<<j << ")";
+	//	else if (postfix[j].type == 2)
+	//		cout << postfix[j].op << "(" << j << ")";
+	////輸出debug碼
+	//}
 	int top, i;
 	for (top = 0, i = 0; postfix[i].type != 0; i++) {
 		if (postfix[i].op == '+' || postfix[i].op == '-' || postfix[i].op == '*' || postfix[i].op == '/') {
