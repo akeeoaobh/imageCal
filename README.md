@@ -1,5 +1,5 @@
 # imageCal
-preprocessing -> 丟openCV ocr -> 輸出字串-? 丟計算機<br />
+preprocessing -> 丟openCV ocr -> 輸出字串-> 丟計算機<br />
 
 ## preprocessing
 1.黑白<br />
