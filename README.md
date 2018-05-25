@@ -1,4 +1,10 @@
 # imageCal
+preprocessing -> 丟openCV ocr -> 輸出字串-? 丟計算機<br />
+
+## preprocessing
+1.黑白<br />
+2.切字<br />
+
 目前沒有處理輸錯的情況 會直接崩壞 <br />
 (ex:1+-3 ) <br />
 使用方法:VISUALSTUDIO 整包下載下來用 <br />
