@@ -9,7 +9,11 @@ preprocessing -> 丟openCV ocr -> 輸出字串-> 丟計算機<br />
 
 ## 看起來很強很厲害的openCV認字
 https://ccw1986.blogspot.tw/2015/11/opencv-api-character-and-text.html <br />
-詳見DL資料夾
+用上面網址的程式碼改寫<br />
+先輸出model的準確度再進行實作<br />
+問題在於preprocessing要把圖片處理好是一大難題。<br />
+
+詳見recognization資料夾<br />
 
 
 目前沒有處理輸錯的情況 會直接崩壞 <br />
