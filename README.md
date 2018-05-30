@@ -1,4 +1,17 @@
 # imageCal
+preprocessing -> 丟openCV ocr -> 輸出字串-> 丟計算機<br />
+
+## preprocessing
+1.黑白<br />
+2.調整字體大小<br />
+20\*20一個字
+
+
+## 看起來很強很厲害的openCV認字
+https://ccw1986.blogspot.tw/2015/11/opencv-api-character-and-text.html <br />
+詳見DL資料夾
+
+
 目前沒有處理輸錯的情況 會直接崩壞 <br />
 (ex:1+-3 ) <br />
 使用方法:VISUALSTUDIO 整包下載下來用 <br />
